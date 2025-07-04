@@ -11,9 +11,9 @@ if os.path.exists(".cache"):
 
 # Spotify Authentication
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id=os.getenv("SPOTIPY_CLIENT_ID"),
-    client_secret=os.getenv("SPOTIPY_CLIENT_SECRET"),
-    redirect_uri=os.getenv("SPOTIPY_REDIRECT_URI"),
+    client_id=os.getenv("ec3171edc134453bbabe60f73241ca90"),
+    client_secret=os.getenv("bcfedf92b0d14c2ca347c3aab33b0031"),
+    redirect_uri=os.getenv("https://gestures.onrender.com/callback"),
     scope="user-modify-playback-state user-read-playback-state"
 ))
 
