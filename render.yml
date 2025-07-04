@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-python-app
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app  # or whatever entrypoint you're using
+    autoDeploy: true
